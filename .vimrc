@@ -13,6 +13,9 @@ set autoindent
 set smartindent
 set cindent
 
+" autocomplete filename in command line mode
+set wildmenu
+
 " start from the last cursor position
 autocmd BufReadPost *
 \ if line("'\"") > 0 && line ("'\"") <= line("$") |
