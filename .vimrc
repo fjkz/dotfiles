@@ -1,3 +1,4 @@
+set nocompatible
 set noswapfile
 
 " increase buffer size
@@ -25,3 +26,13 @@ augroup HighlightTrailingSpaces
   \ term=underline guibg=DarkGray ctermbg=DarkGray
   autocmd VimEnter,WinEnter * match TrailingSpaces /\s\+$/
 augroup END
+
+"NeoBundle
+set runtimepath+=~/.vim/bundle/neobundle.vim
+call neobundle#begin(expand('~/.vim/bundle/'))
+
+NeoBundleFetch 'Shougo/neobundle.vim'
+
+call neobundle#end()
+
+filetype plugin indent on
