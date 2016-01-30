@@ -15,6 +15,8 @@ set cindent
 
 " autocomplete filename in command line mode
 set wildmenu
+" show file path name in the title bar
+set title
 
 " start from the last cursor position
 autocmd BufReadPost *
