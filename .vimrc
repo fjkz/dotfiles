@@ -16,6 +16,7 @@ set softtabstop=2
 set autoindent
 set smartindent
 autocmd! FileType c set cindent noexpandtab tabstop=8 shiftwidth=8 softtabstop=8
+autocmd! FileType python set tabstop=4 shiftwidth=4 softtabstop=4
 
 " start from the last cursor position
 autocmd BufReadPost *
