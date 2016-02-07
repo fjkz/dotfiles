@@ -1,9 +1,7 @@
 set nocompatible
 set noswapfile
-
 " increase buffer size
 set viminfo='20,<1000,s1000
-
 " indent
 set expandtab
 set tabstop=8
@@ -12,11 +10,12 @@ set softtabstop=2
 set autoindent
 set smartindent
 set cindent
-
 " autocomplete filename in command line mode
 set wildmenu
 " show file path name in the title bar
 set title
+" showbreaks
+set showbreak=↪
 
 " start from the last cursor position
 autocmd BufReadPost *
