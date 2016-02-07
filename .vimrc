@@ -2,20 +2,20 @@ set nocompatible
 set noswapfile
 " increase buffer size
 set viminfo='20,<1000,s1000
-" indent
-set expandtab
-set tabstop=8
-set shiftwidth=2
-set softtabstop=2
-set autoindent
-set smartindent
-set cindent
 " autocomplete filename in command line mode
 set wildmenu
 " show file path name in the title bar
 set title
 " showbreaks
 set showbreak=↪
+" indent
+set expandtab
+set tabstop=2
+set shiftwidth=2
+set softtabstop=2
+set autoindent
+set smartindent
+autocmd! FileType c set cindent noexpandtab tabstop=8 shiftwidth=8 softtabstop=8
 
 " start from the last cursor position
 autocmd BufReadPost *
