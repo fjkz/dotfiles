@@ -32,14 +32,14 @@ augroup HighlightTrailingSpaces
 augroup END
 
 "keybinding
-nnoremap j gj
-nnoremap k gk
-vnoremap j gj
-vnoremap k gk
-nnoremap gj j
-nnoremap gk k
-vnoremap gj j
-vnoremap gk k
+noremap j gj
+noremap k gk
+noremap gj j
+noremap gk k
+
+noremap <C-g> <esc>
+noremap! <C-g> <esc>
+nnoremap <C-h> X
 
 "NeoBundle
 set runtimepath+=~/.vim/bundle/neobundle.vim
