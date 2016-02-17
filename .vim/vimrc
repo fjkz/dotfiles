@@ -53,7 +53,7 @@ vnoremap = :s/\s\+$//e<CR>gv=
 " bash like
 noremap! <C-a> <Home>
 noremap! <C-e> <End>
-inoremap <C-u> <Esc>ld0a
+inoremap <C-u> <Esc>ld0i
 inoremap <C-k> <Esc>lDa
 
 filetype plugin indent on
