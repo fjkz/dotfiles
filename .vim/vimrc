@@ -57,6 +57,42 @@ nnoremap cw ciw
 nnoremap dw daw
 nnoremap yw yiw
 
+nnoremap c" ci"
+nnoremap d" di"
+nnoremap y" yi"
+
+nnoremap c' ci'
+nnoremap d' di'
+nnoremap y' yi'
+
+nnoremap c) ci)
+nnoremap d) di)
+nnoremap y) yi)
+nnoremap c( ca(
+nnoremap d( da(
+nnoremap y( ya(
+
+nnoremap c} ci}
+nnoremap d} di}
+nnoremap y} yi}
+nnoremap c{ ca{
+nnoremap d{ da{
+nnoremap y{ ya{
+
+nnoremap c] ci]
+nnoremap d] di]
+nnoremap y] yi]
+nnoremap c[ ca[
+nnoremap d[ da[
+nnoremap y[ ya[
+
+nnoremap c> ci>
+nnoremap d> di>
+nnoremap y> yi>
+nnoremap c< ca<
+nnoremap d< da<
+nnoremap y< ya<
+
 nnoremap ZZ <Nop>
 nnoremap ZQ <Nop>
 nnoremap Q  <Nop>
