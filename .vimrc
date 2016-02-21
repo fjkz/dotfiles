@@ -42,6 +42,9 @@ noremap <C-g> <esc>
 noremap! <C-g> <esc>
 nnoremap <C-h> X
 
+"my command
+command RmTrailSpace %s/\s\+$//e
+
 "NeoBundle
 set runtimepath+=~/.vim/bundle/neobundle.vim
 call neobundle#begin(expand('~/.vim/bundle/'))
