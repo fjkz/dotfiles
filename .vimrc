@@ -45,6 +45,11 @@ nnoremap <C-h> X
 "my command
 command RmTrailSpace %s/\s\+$//e
 
+"complete right )
+inoremap { {}<Left>
+inoremap [ []<Left>
+inoremap ( ()<Left>
+
 "NeoBundle
 set runtimepath+=~/.vim/bundle/neobundle.vim
 call neobundle#begin(expand('~/.vim/bundle/'))
