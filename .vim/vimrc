@@ -38,8 +38,6 @@ noremap k gk
 noremap gj j
 noremap gk k
 
-noremap <C-g> <esc>
-noremap! <C-g> <esc>
 nnoremap <C-h> X
 
 "my command
