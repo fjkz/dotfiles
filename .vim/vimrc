@@ -39,7 +39,8 @@ noremap gj j
 noremap gk k
 
 "format and remove trailing space
-noremap = :s/\s\+$//e<CR>gv=
+nnoremap == :s/\s\+$//e<CR>==
+vnoremap = :s/\s\+$//e<CR>gv=
 
 "bash like
 noremap! <C-a> <Home>
