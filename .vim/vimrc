@@ -32,26 +32,28 @@ augroup HighlightTrailingSpaces
   autocmd VimEnter,WinEnter * match TrailingSpaces /\s\+$/
 augroup END
 
-"keybinding
+" keybinding
+"------------
+
 noremap j gj
 noremap k gk
 noremap gj j
 noremap gk k
 
-"format and remove trailing space
+" indent with tab
+nnoremap > >>
+nnoremap < <<
+map <Tab> >
+map <S-Tab> <
+
+" format and remove trailing space
 nnoremap == :s/\s\+$//e<CR>==
 vnoremap = :s/\s\+$//e<CR>gv=
 
-"bash like
+" bash like
 noremap! <C-a> <Home>
 noremap! <C-e> <End>
 inoremap <C-u> <Esc>ld0a
 inoremap <C-k> <Esc>lDa
-
-"NeoBundle
-"set runtimepath+=~/.vim/bundle/neobundle.vim
-"call neobundle#begin(expand('~/.vim/bundle/'))
-"NeoBundleFetch 'Shougo/neobundle.vim'
-"call neobundle#end()
 
 filetype plugin indent on
