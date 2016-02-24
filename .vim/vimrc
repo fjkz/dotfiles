@@ -41,6 +41,10 @@ noremap gk k
 "format and remove trailing space
 noremap = :s/\s\+$//e<CR>gv=
 
+"bash like
+noremap! <C-a> <Home>
+noremap! <C-e> <End>
+
 "NeoBundle
 "set runtimepath+=~/.vim/bundle/neobundle.vim
 "call neobundle#begin(expand('~/.vim/bundle/'))
