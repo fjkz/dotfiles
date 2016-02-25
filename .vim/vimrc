@@ -46,10 +46,20 @@ augroup END
 " keybinding
 "------------
 
+let mapleader = "\<Space>"
+
 noremap j gj
 noremap k gk
 noremap gj j
 noremap gk k
+
+nnoremap cw ciw
+nnoremap dw daw
+nnoremap yw yiw
+
+nnoremap ZZ <Nop>
+nnoremap ZQ <Nop>
+nnoremap Q  <Nop>
 
 " indent with tab
 nnoremap > >>
@@ -58,8 +68,8 @@ map <Tab> >
 map <S-Tab> <
 
 " format and remove trailing space
-nnoremap = :s/\s\+$//e<CR>==<CR>
-vnoremap = :s/\s\+$//e<CR>gv=<CR>
+nnoremap = :s/\s\+$//e<CR>==
+vnoremap = :s/\s\+$//e<CR>gv=
 
 " bash like
 noremap! <C-a> <Home>
