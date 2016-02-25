@@ -8,6 +8,7 @@ set wildmenu
 set title
 " showbreaks
 set showbreak=↪
+
 " indent
 set expandtab
 set tabstop=2
@@ -15,20 +16,30 @@ set shiftwidth=2
 set softtabstop=2
 set autoindent
 set smartindent
-autocmd! FileType c set cindent noexpandtab tabstop=8 shiftwidth=8 softtabstop=8
-autocmd! FileType python set tabstop=4 shiftwidth=4 softtabstop=4
+
+autocmd! FileType c set
+      \ cindent
+      \ noexpandtab
+      \ tabstop=8
+      \ shiftwidth=8
+      \ softtabstop=8
+
+autocmd! FileType python set
+      \ tabstop=4
+      \ shiftwidth=4
+      \ softtabstop=4
 
 " start from the last cursor position
 autocmd BufReadPost *
-\ if line("'\"") > 0 && line ("'\"") <= line("$") |
-\   exe "normal! g'\"" |
-\ endif
+      \ if line("'\"") > 0 && line ("'\"") <= line("$") |
+      \   exe "normal! g'\"" |
+      \ endif
 
 " highlight space at the end of line
 augroup HighlightTrailingSpaces
   autocmd!
   autocmd VimEnter,WinEnter,ColorScheme * highlight TrailingSpaces
-  \ term=underline guibg=DarkGray ctermbg=DarkGray
+        \ term=underline guibg=DarkGray ctermbg=DarkGray
   autocmd VimEnter,WinEnter * match TrailingSpaces /\s\+$/
 augroup END
 
