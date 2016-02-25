@@ -47,8 +47,8 @@ map <Tab> >
 map <S-Tab> <
 
 " format and remove trailing space
-nnoremap == :s/\s\+$//e<CR>==
-vnoremap = :s/\s\+$//e<CR>gv=
+nnoremap = :s/\s\+$//e<CR>==<CR>
+vnoremap = :s/\s\+$//e<CR>gv=<CR>
 
 " bash like
 noremap! <C-a> <Home>
