@@ -98,10 +98,10 @@ nnoremap ZQ <Nop>
 nnoremap Q  <Nop>
 
 " indent with tab
-nnoremap > >>
-nnoremap < <<
-map <Tab> >
-map <S-Tab> <
+nnoremap <Tab> >>
+nnoremap <S-Tab> <<
+vnoremap <Tab> >gv
+vnoremap <S-Tab> <gv
 
 " format and remove trailing space
 nnoremap = :s/\s\+$//e<CR>==
