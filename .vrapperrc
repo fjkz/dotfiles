@@ -1,0 +1,57 @@
+let mapleader = "\<Space>"
+
+nnoremap cw ciw
+nnoremap dw daw
+nnoremap yw yiw
+
+nnoremap c" ci"
+nnoremap d" di"
+nnoremap y" yi"
+
+nnoremap c' ci'
+nnoremap d' di'
+nnoremap y' yi'
+
+nnoremap c) ci)
+nnoremap d) di)
+nnoremap y) yi)
+nnoremap c( ca(
+nnoremap d( da(
+nnoremap y( ya(
+
+nnoremap c} ci}
+nnoremap d} di}
+nnoremap y} yi}
+nnoremap c{ ca{
+nnoremap d{ da{
+nnoremap y{ ya{
+
+nnoremap c] ci]
+nnoremap d] di]
+nnoremap y] yi]
+nnoremap c[ ca[
+nnoremap d[ da[
+nnoremap y[ ya[
+
+nnoremap c> ci>
+nnoremap d> di>
+nnoremap y> yi>
+nnoremap c< ca<
+nnoremap d< da<
+nnoremap y< ya<
+
+nnoremap ZZ <Nop>
+nnoremap ZQ <Nop>
+nnoremap Q  <Nop>
+
+" indent with tab
+nnoremap <Tab> >>
+nnoremap <S-Tab> <<
+vnoremap <Tab> >gv
+vnoremap <S-Tab> <gv
+
+" bash like
+noremap! <C-a> <Home>
+noremap! <C-e> <End>
+inoremap <C-u> <Esc>ld0i
+inoremap <C-k> <Esc>lDa
