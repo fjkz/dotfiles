@@ -46,6 +46,9 @@ nnoremap ZZ <Nop>
 nnoremap ZQ <Nop>
 nnoremap Q  <Nop>
 
+noremap <C-g> <C-c>
+noremap! <C-g> <C-c>
+
 " indent with tab
 nnoremap <Tab> >>
 nnoremap <S-Tab> <<
