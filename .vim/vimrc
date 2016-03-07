@@ -113,4 +113,6 @@ noremap! <C-e> <End>
 inoremap <C-u> <Esc>ld0i
 inoremap <C-k> <Esc>lDa
 
+inoremap <Nul> <C-p>
+
 filetype plugin indent on
