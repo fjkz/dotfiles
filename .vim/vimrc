@@ -7,7 +7,7 @@ set wildmenu
 " show file path name in the title bar
 set title
 " showbreaks
-set showbreak=↪
+set showbreak=>\ 
 
 " indent
 set expandtab
