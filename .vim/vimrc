@@ -99,8 +99,8 @@ nnoremap ZZ <Nop>
 nnoremap ZQ <Nop>
 nnoremap Q  <Nop>
 
-noremap <C-g> <C-c>
-noremap! <C-g> <C-c>
+noremap <C-g> <Esc>
+noremap! <C-g> <Esc>
 
 " indent with tab
 nnoremap <Tab> >>
@@ -118,6 +118,6 @@ noremap! <C-e> <End>
 inoremap <C-u> <Esc>ld0i
 inoremap <C-k> <Esc>lDa
 
-inoremap <Nul> <C-p>
+inoremap <Nul> <C-x><C-o>
 
 filetype plugin indent on
