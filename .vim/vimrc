@@ -8,6 +8,8 @@ set wildmenu
 set title
 " showbreaks
 set showbreak=>\ 
+" comment color
+hi Comment ctermfg=blue
 
 " indent
 set expandtab
