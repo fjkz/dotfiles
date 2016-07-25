@@ -23,6 +23,7 @@
   delete-branch = branch -d
   remove-branch = branch -d
   stashes = stash list
+  word-diff = diff --word-diff=color
   precommit = diff --cached --color
   prestage = diff --color
   move = mv
