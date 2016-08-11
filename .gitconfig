@@ -5,6 +5,7 @@
   editor = vim
   precomposeunicode = true
   excludesfile = ~/.gitignore
+  pager = less -r
 [push]
   default = current
 [alias]
