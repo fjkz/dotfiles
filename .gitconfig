@@ -39,3 +39,5 @@
   filetrail = log --follow -p -w
   mergetrail = log --ancestry-path --merges
   unmerged = diff --name-only --diff-filter=U
+[diff]
+	algorithm = histogram
