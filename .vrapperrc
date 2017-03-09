@@ -4,42 +4,53 @@ let mapleader = "\<Space>"
 
 nnoremap cw ciw
 nnoremap dw daw
+nnoremap vw viw
 nnoremap yw yiw
 
 nnoremap c" ci"
 nnoremap d" di"
+nnoremap v" vi"
 nnoremap y" yi"
 
 nnoremap c' ci'
 nnoremap d' di'
+nnoremap v' vi'
 nnoremap y' yi'
 
 nnoremap c) ci)
 nnoremap d) di)
+nnoremap v) vi)
 nnoremap y) yi)
 nnoremap c( ca(
 nnoremap d( da(
+nnoremap v( va(
 nnoremap y( ya(
 
 nnoremap c} ci}
 nnoremap d} di}
+nnoremap v} vi}
 nnoremap y} yi}
 nnoremap c{ ca{
 nnoremap d{ da{
+nnoremap v{ va{
 nnoremap y{ ya{
 
 nnoremap c] ci]
 nnoremap d] di]
+nnoremap v] vi]
 nnoremap y] yi]
 nnoremap c[ ca[
 nnoremap d[ da[
+nnoremap v[ va[
 nnoremap y[ ya[
 
 nnoremap c> ci>
 nnoremap d> di>
+nnoremap v> vi>
 nnoremap y> yi>
 nnoremap c< ca<
 nnoremap d< da<
+nnoremap v< va<
 nnoremap y< ya<
 
 nnoremap ZZ <Nop>
