@@ -2,6 +2,9 @@ set clipboard=unnamed
 
 let mapleader = "\<Space>"
 
+" togle command mode with ;
+noremap ; :
+
 nnoremap cw ciw
 nnoremap dw daw
 nnoremap vw viw

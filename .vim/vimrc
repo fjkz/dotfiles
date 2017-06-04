@@ -50,6 +50,9 @@ augroup END
 
 let mapleader = "\<Space>"
 
+" togle command mode with ;
+noremap ; :
+
 noremap j gj
 noremap k gk
 noremap gj j
