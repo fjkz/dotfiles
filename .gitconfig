@@ -27,6 +27,7 @@
   word-diff = diff --word-diff=color
   precommit = diff --cached --color
   prestage = diff --color
+  rename = mv
   move = mv
   remove = rm
   unmerged = branch --no-merged
