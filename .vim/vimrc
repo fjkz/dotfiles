@@ -143,4 +143,7 @@ noremap <C-Up> <C-w>s
 noremap <C-Down> <C-w>c
 noremap <C-Left> <C-w>o
 
+" tag jump back
+noremap <C-[> <C-t>
+
 filetype plugin indent on
