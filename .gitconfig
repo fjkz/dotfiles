@@ -40,5 +40,6 @@
   filetrail = log --follow -p -w
   mergetrail = log --ancestry-path --merges
   unmerged = diff --name-only --diff-filter=U
+  shallow-clone = clone --depth 1
 [diff]
 	algorithm = histogram
