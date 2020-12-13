@@ -31,6 +31,16 @@ autocmd! FileType python set
       \ shiftwidth=4
       \ softtabstop=4
 
+autocmd! FileType java set
+      \ tabstop=4
+      \ shiftwidth=4
+      \ softtabstop=4
+
+autocmd! FileType xml set
+      \ tabstop=4
+      \ shiftwidth=4
+      \ softtabstop=4
+
 " start from the last cursor position
 autocmd BufReadPost *
       \ if line("'\"") > 0 && line ("'\"") <= line("$") |
