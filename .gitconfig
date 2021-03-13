@@ -43,3 +43,5 @@
   shallow-clone = clone --depth 1
 [diff]
 	algorithm = histogram
+[credential]
+	helper = cache
